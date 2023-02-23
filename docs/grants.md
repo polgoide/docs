@@ -4,9 +4,9 @@ layout: home
 ---
 ESOPs on Capboard have 3 parts:
 
-- Pool: the amount of shares reserved and approved for the ESOP. Pool size can be increased or decreased, while it's also possible to have more than one. Each Pool can have one or several Plans. 
-- Plan: ESOP clauses are set at a Plan level: vesting, cliff, good and bad leaver, exercising windows, etc. Plan-level presets can be overwritten at a grant level.
-- Grant: Stock options, Warrants or Phantom shares are assigned to Stakeholders through Grants. Each Grant is linked to a Plan and inherits all clauses by default, but they can be overwritten. Each Stakeholder can have one or more grants, from one or more Plans.
+- **Pool**: the amount of shares reserved and approved for the ESOP. Pool size can be increased or decreased, while it's also possible to have more than one. Each Pool can have one or several Plans. 
+- **Plan**: ESOP clauses are set at a Plan level: vesting, cliff, good and bad leaver, exercising windows, etc. Plan-level presets can be overwritten at a grant level.
+- **Grant**: Stock options, Warrants or Phantom shares are assigned to Stakeholders through Grants. Each Grant is linked to a Plan and inherits all clauses by default, but they can be overwritten. Each Stakeholder can have one or more grants, from one or more Plans.
 # Pools
 ## How to create a Pool
 Creating a Pool is the first step to launch an ESOP on Capboard. The ESOP should already be approved by your Board before you can create it.
