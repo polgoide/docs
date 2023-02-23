@@ -19,6 +19,7 @@ To create a Pool, go to Equity Plans > Pools and fill the form:
 - Underlying share class: the share class to which the ESOP will be issued, usually Common.
 
 ## How to retrieve Pools
+Retrieve all existing Plans for that company using this [Endpoint](https://www.capboard.io/api/docs#/pools/get_api_pools).
 
 # Plans
 ## How to create a Plan
@@ -32,11 +33,17 @@ Once the Pool has been created, is time to create the Plan.
 - Vesting: pick among the options to set up the vesting schedule, cliff, etc.
 - Definitions: the details of good leaver, bad leaver and liquidation event. Stock holders will be able to see it.
 
+## How to retrieve Plans
+Retrieve all existing Plans for that company using this [Endpoint](https://www.capboard.io/api/docs#/equity_plans/get_api_equity_plans). Check the [output](https://www.capboard.io/api/docs#model-EquityPlan)
 
+# Grants
 ## How to create a Grant
-Once we have a Pool and a Plan, we can start granting options to Stakeholders. [Endpoint] (https://www.capboard.io/api/docs#/grants/post_api_grants)
+Once we have a Pool and a Plan, we can start granting options to Stakeholders. [Endpoint](https://www.capboard.io/api/docs#/grants/post_api_grants)
 - Select the Stakeholder to grant options to. You can create if it doesn't exist yet.
 - Pick the Plan to apply the rules from.
 -  Granted shares: the amount of shares to be granted. If there are not enough available, the Pool size can be increased from Transactions > Pool Increase.
 - The rest of details (Price, Vesting, Definitions) are inherited from the Plan, but you can customize it at a Grant level.
 Upon clicking on "Save", the Grant will be creating and the Stakeholder will be able to see it under "My Equity".
+
+## How to retrieve Grants
+Retrieve all existing Grants for that company using this [Endpoint](https://www.capboard.io/api/docs#/grants/get_api_grants). Check the [output](https://www.capboard.io/api/docs#model-EquityGrant)
