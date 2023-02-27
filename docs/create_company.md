@@ -6,4 +6,4 @@ On Capboard, a company is a legal entity with a pre-defined currency, country, a
 
 All transactions, ESOP, stakeholders... are always linked to a company id, so creating or retrieving the id is a necessary step for any operation.
 
-To create a company, use the following [end-point](https://www.capboard.io/api/docs#/companies/post_api_companies).
+To create a company, use the following [end-point](https://www.capboard.io/api/docs/endpoints#/companies/post_api_companies).
