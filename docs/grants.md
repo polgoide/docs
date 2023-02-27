@@ -6,7 +6,7 @@ ESOPs on Capboard have 3 parts:
 
 - **Pool**: the amount of shares reserved and approved for the ESOP. Pool size can be increased or decreased, while it's also possible to have more than one. Each Pool can have one or several Plans. 
 - **Plan**: ESOP clauses are set at a Plan level: vesting, cliff, good and bad leaver, exercising windows, etc. Plan-level presets can be overwritten at a grant level.
-- **Grant**: Stock options, Warrants or Phantom shares are assigned to Stakeholders through Grants. Each Grant is linked to a Plan and inherits all clauses by default, but they can be overwritten. Each Stakeholder can have one or more grants, from one or more Plans.
+- **Grant**: Stock options, Warrants or Phantom shares are assigned to [Stakeholders](/docs/create_stakeholder.html) through Grants. Each Grant is linked to a Plan and inherits all clauses by default, but they can be overwritten. Each Stakeholder can have one or more grants, from one or more Plans.
 
 # Pools
 ## How to create a Pool
@@ -20,7 +20,7 @@ To create a Pool, go to Equity Plans > Pools and fill the form:
 - Underlying share class: the share class to which the ESOP will be issued, usually Common.
 
 ## How to retrieve Pools
-Retrieve all existing Plans for that company using this [Endpoint](https://www.capboard.io/api/docs/endpoints#/pools/get_api_pools).
+Retrieve all existing Pools for that company using this [Endpoint](https://www.capboard.io/api/docs/endpoints#/pools/get_api_pools).
 
 # Plans
 ## How to create a Plan
@@ -29,7 +29,10 @@ Once the Pool has been created, is time to create the Plan.
 - Plan name: name of the ESOP. Employees receiving grants from a Plan will be able to see the name.
 - From pool: pick the Pool to be used to issue shares for this Plan.
 - Date: the day when the ESOP was approved, usually the same as the Pool creation date.
-- Grant type: type of ESOP, pick between Stock options or Phantom shares. It's very important to choose the right one as it has implications for the cap table. If in doubt, review your legal documents or ask your lawyer. 
+- Grant type:
+-- 1 = Phantom: Stakeholder receives the economic rights but not the voting/ownership ones.
+-- 2 = Stock: Stakeholder receives direct stock
+-- 3 = Stock Options: Stakeholder will have to [exercise](/docs/exercising.html) to get the vested shares.
 - Price: set up strike and purchase price.
 - Vesting: pick among the options to set up the vesting schedule, cliff, etc.
 - Definitions: the details of good leaver, bad leaver and liquidation event. Stock holders will be able to see it.
