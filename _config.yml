@@ -1,8 +1,10 @@
 title: Capboard API docs
 description: API documentation for ESOP
 theme: just-the-docs
+color_scheme: blue
 
-url: https://just-the-docs.github.io
+
+url: https://www.capboard.io/api/docs
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Endpoints List: https://www.capboard.io/api/docs
