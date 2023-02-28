@@ -1,12 +1,13 @@
 ---
 title: Creating equity grants
 layout: home
+nav_order: 4
 ---
 ESOPs on Capboard have 3 parts:
 
 - **Pool**: the amount of shares reserved and approved for the ESOP. Pool size can be increased or decreased, while it's also possible to have more than one. Each Pool can have one or several Plans. 
 - **Plan**: ESOP clauses are set at a Plan level: vesting, cliff, good and bad leaver, exercising windows, etc. Plan-level presets can be overwritten at a grant level.
-- **Grant**: Stock options, Warrants or Phantom shares are assigned to [Stakeholders](/docs/create_stakeholder.html) through Grants. Each Grant is linked to a Plan and inherits all clauses by default, but they can be overwritten. Each Stakeholder can have one or more grants, from one or more Plans.
+- **Grant**: Stock options, Warrants or Phantom shares are assigned to [Stakeholders](/docs/docs/create_stakeholder.html) through Grants. Each Grant is linked to a Plan and inherits all clauses by default, but they can be overwritten. Each Stakeholder can have one or more grants, from one or more Plans.
 
 # Pools
 ## How to create a Pool
@@ -32,7 +33,7 @@ Once the Pool has been created, is time to create the Plan.
 - Grant type:
 -- 1 = Phantom: Stakeholder receives the economic rights but not the voting/ownership ones.
 -- 2 = Stock: Stakeholder receives direct stock
--- 3 = Stock Options: Stakeholder will have to [exercise](/docs/exercising.html) to get the vested shares.
+-- 3 = Stock Options: Stakeholder will have to [exercise](/docs/docs/exercising.html) to get the vested shares.
 - Price: set up strike and purchase price.
 - Vesting: pick among the options to set up the vesting schedule, cliff, etc.
 - Definitions: the details of good leaver, bad leaver and liquidation event. Stock holders will be able to see it.
