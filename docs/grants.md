@@ -47,8 +47,8 @@ Once we have a Pool and a Plan, we can start granting options to Stakeholders. [
 - Select the Stakeholder to grant options to. You can create if it doesn't exist yet.
 - Pick the Plan to apply the rules from.
 -  Granted shares: the amount of shares to be granted. If there are not enough available, the Pool size can be increased from Transactions > Pool Increase.
-- The rest of details (Price, Vesting, Definitions) are inherited from the Plan, but you can customize it at a Grant level.
+- The rest of details (Price, Vesting, Definitions) are inherited from the Plan, but they can be customizes at Grant level.
 Upon clicking on "Save", the Grant will be creating and the Stakeholder will be able to see it under "My Equity".
 
 ## How to retrieve Grants
-Retrieve all existing Grants for that company using this [Endpoint](https://www.capboard.io/api/docs/endpoints#/grants/get_api_grants). Check the [output](https://www.capboard.io/api/docs/endpoints#model-EquityGrant)
+Retrieve all existing Grants for that company using this [Endpoint](https://www.capboard.io/api/docs/endpoints#/grants/get_api_grants).
