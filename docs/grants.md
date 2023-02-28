@@ -31,9 +31,9 @@ Once the Pool has been created, is time to create the Plan.
 - From pool: pick the Pool to be used to issue shares for this Plan.
 - Date: the day when the ESOP was approved, usually the same as the Pool creation date.
 - Grant type:
--- 1 = Phantom: Stakeholder receives the economic rights but not the voting/ownership ones.
--- 2 = Stock: Stakeholder receives direct stock
--- 3 = Stock Options: Stakeholder will have to [exercise](/docs/docs/exercising.html) to get the vested shares.
+    - 1 = Phantom: Stakeholder receives the economic rights but not the voting/ownership ones.
+    - 2 = Stock: Stakeholder receives direct stock
+    - 3 = Stock Options: Stakeholder will have to [exercise](/docs/docs/exercising.html) to get the vested shares.
 - Price: set up strike and purchase price.
 - Vesting: pick among the options to set up the vesting schedule, cliff, etc.
 - Definitions: the details of good leaver, bad leaver and liquidation event. Stock holders will be able to see it.
